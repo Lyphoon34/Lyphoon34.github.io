@@ -1,0 +1,159 @@
+@font-face {
+    font-family: mobile;
+    src: url(../css/iconfont/iconfont.ttf);
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+header{
+    width: 100%;
+    height: .54rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: .37rem;
+    padding-right: .37rem;
+    margin-top: .56rem;
+    font-size: .26rem;
+    box-sizing: border-box;
+}
+header .iconfont{
+    color: #fb2e3f;
+    font-size: .4rem;
+}  
+header p{
+    display: inline-block;
+}
+header .search{
+    height: .54rem;
+    width: 4.94rem;
+    background-color: #f2f3f7;
+    border-radius: .05rem;
+    position: relative;
+}
+header .search input{
+    height: .54rem;
+    width: 4.94rem;
+    background-color: #f2f3f7;
+    border-radius: .05rem;
+    border: none;
+}
+header .search input::placeholder{
+    text-align: center;
+    color: #b1b2b6;
+}
+header .search .iconfont{
+    position: absolute;
+    top: .05rem;
+    left: 1.27rem;
+    color: #b1b2b6;
+    font-size: .4rem;
+}
+section{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+section .banner{
+    width: 100%;
+    height: 2.77rem;
+    margin-top: .27rem;
+}
+section .banner img{
+    width: 100%;
+    height: 2.77rem;
+}
+section .nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section .nav li{
+    width: 20%;
+    text-align: center;
+    line-height: .46rem;
+    margin-top: .41rem;
+}
+section .nav li .iconfont{
+    font-size: .51rem;
+}
+
+section .nav span{
+    display: block;
+    font-size: .21rem;
+}
+section main{
+    margin-top: .33rem;
+}
+section .title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .37rem;
+}
+section h2{
+    font-size: .34rem;
+    font-weight: 700;
+    padding-left: .28rem;
+    border-left: .06rem solid #fa323d;
+}
+section .title a{
+    margin-right: .37rem ;
+}
+section main hr{
+    width: 6.86rem;
+    background-color:#e3e3e3 ;
+    border-color: #e3e3e3;
+}
+
+section main .img-list{
+    display: flex;
+    justify-content:center;
+    margin-top: .33rem;
+}
+section main .img-list img{
+    width: 2.22rem;
+    height: 2rem;
+}
+section main .img-list img:not(:last-child){
+    margin-right: .11rem;
+}
+section main .city{
+    display: flex;
+    justify-content: center;
+    margin-top: .11rem;
+}
+section main .city li{
+    width: 1.64rem;
+    height: .65rem;
+    background-color: #f2f6dd;
+    text-align: center;
+    line-height: .65rem;
+    border-radius: .1rem;
+}
+section main .city li:not(:last-child){
+    margin-right: .11rem;
+}
+
+footer{
+    height: .99rem;
+    background-color: #ffffff;
+    box-shadow:0rem -0.0625rem .125rem -0.0625rem gray;
+}
+footer ul{
+    height: .99rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+footer ul li .iconfont{
+    font-size: .45rem;
+}
